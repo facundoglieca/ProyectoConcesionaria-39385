@@ -1,0 +1,198 @@
+/* 
+font-family: 'Antonio', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Antonio', sans-serif;
+  }
+
+  h1{ color:white;
+    font-weight: 900px;
+    font-size: 70px;
+     margin-left: 20px;
+     margin-top: 10px;
+     text-align: start;
+  
+  }
+  .titulotitulo2{
+    color: white;
+    background-image: url(../assets/img/vento-gli.jpg);
+    background-position: center;
+    padding:250px;
+    width: 1400px;
+  }
+  .header{
+      color: white;
+      background-color: black;
+      font-weight: 800 ;
+     }
+      
+  .navbar {
+    position:initial;
+    display:inline-flex ;
+    justify-content:space-evenly;
+    color: white;
+    list-style:none;  
+    width:100%;
+    background-position:center;
+    top:20px;
+    text-align:end;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .navbar li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px ;
+    justify-content: space-evenly;
+    list-style: none;
+    background-position: center;
+    text-align: end;
+    display: inline-flex;
+    position: initial;
+    width: 100%;
+    
+  }
+  .tituloautos{
+    background-color: #1E1E1E;
+    color: white;
+    text-align: center;
+  }
+  p{
+    color:white;
+    font-size: 20px;
+    }
+  .principal{
+    color:black;
+;
+
+  }
+  .footer{
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    width: 1400px;
+  }
+  .footera{
+    background-color: black;
+    color: white;
+    margin: 50px;
+  
+  }
+  .footerb{
+    background-color: black;
+    color: white;
+    margin: 50px;
+
+  }
+  .footerc{
+    background-color: black;
+    color: white;
+    margin: 50px;
+    display:block;
+    
+    
+
+  }
+  .ulfooter{
+    background-color: black;
+    color: white;
+    margin: 50px;
+    display:block;
+    list-style: none;
+  }
+
+  .section{
+    color: white;
+     }
+    
+
+    .formulario{
+        text-align: center;
+        color:white;
+        background-color:#1E1E1E;
+        
+    }
+    .titulogrande{
+        color: white;
+      background-color: black
+       ;
+       margin: 0
+       ;
+       text-align: center;
+
+
+    }
+    .cuadrodeventa{
+      width: 300px;
+      border-style:double;
+      background-color: white;
+      color: black;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+    
+    }
+    .cuadrodeventacamionetas{
+      width: 280px;
+      border-style:double;
+      background-color: white;
+      color: black;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      height: 400px;
+    
+    }
+    .espaciodeventa{
+      display: inline-flex;
+    }
+
+ 
+    .parrafodeventa{
+      color: black;
+    
+    }
+    .espaciodeventacamionetas{
+      background-image:url(../assets/img/raptor.jpg);
+      width: 1300px;
+      height: 800px;
+      padding: 50px;
+      display: inline-flex;
+    }
+
+    .sectionautos{
+      background-image:url(../assets/img/micoper.jpg);
+      width: 1400px;
+      height: 900px;
+      padding: 50px;
+      
+      
+    }
+    .vehiculoscuadritos{
+      
+        color: black;
+        background-color:white;
+        border-bottom: #181D31;
+        width: 300px;
+     
+    }
+    .botonverdetalle{
+        color: white;
+        background-color:#181D31;
+        width: 100px
+      ;
+    }
+    .nosotrosfondo{
+        color: white;
+        background-color: #1E1E1E;
+       ;
+
+
+
+    }
