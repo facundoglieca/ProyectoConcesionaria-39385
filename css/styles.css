@@ -9,21 +9,8 @@ font-family: 'Antonio', sans-serif; */
     font-family: 'Quicksand', sans-serif;
   }
 
-  h1{ color:white;
-    font-weight: 900px;
-    font-size: 70px;
-     margin-left: 20px;
-     margin-top: 10px;
-     text-align: start;
-  
-  }
-  .titulotitulo2{
-    color: white;
-    
-    padding:250px;
-    width: 1400px;
-  }
-  .header{
+/* HEADER */
+.header{
       color: white;
       background-color: black;
       font-weight: 800 ;
@@ -35,7 +22,7 @@ font-family: 'Antonio', sans-serif; */
   padding: 0 25px;
 }
       
-  .navbar {
+ .navbar {
     display:flex ;
     align-items: center;
     justify-content:space-between;
@@ -45,7 +32,7 @@ font-family: 'Antonio', sans-serif; */
     padding: 20px;
   }
 
-  ul{
+ul{
     list-style: none;
   }
 
@@ -59,51 +46,57 @@ font-family: 'Antonio', sans-serif; */
     transition: .4s ease;
   }
 
-  .navbar li a:hover{
+.navbar li a:hover{
     color: rgb(131, 30, 30);
   }
   
-  p{
+
+  /* MAIN */
+
+p{
     color:white;
     font-size: 20px;
     }
-  .principal{
-    background-image: url(../assets/img/vento-gli.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-;
 
-  }
-  
-  .section{
+.section{
     color: white;
      }
      
-     .titulogrande{
-      color: white;
-     text-align: center;
-  }
+
  
+.tituloautos{
+  color: rgb(102, 20, 20);
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px 0;
+  }
 
-  
-        
+.tituloautosindex{
+
+  color: rgb(102, 20, 20);
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px 12px;
+    height: 150px;
+}
+      
     /* CONTACTO */
-
-    .contactof{
+.contactof{
       height: 100vh;
       background-image: url(../assets/img/contacto.jfif);
       background-position: center;
       background-size: cover;
-
+      align-items: center;
+ 
     }
     
-    
-    button {
+button {
       color: #663c4c;
     }
     
-    button:hover {
+button:hover {
       color: cadetblue;
     }
     
@@ -121,20 +114,21 @@ font-family: 'Antonio', sans-serif; */
     grid-template-columns: 450px 450px;
     grid-template-rows: auto auto auto auto;
     column-gap: 50px;
-    /* width: ; */
-    opacity: .6;
+    opacity: .8;
     place-items: center;
-    /* justify-content: center;
-    align-content: center; */
-    padding:100px 350px;
-    margin: 0;
+    padding:200px 100px;
+    /* margin: 200px; */
+    justify-content: center;
+    align-items: center;
+    
 }
 .nombre{
     grid-area: nombre;
     width: 100%;
+    background-color: black;
+    color: white;
    
 }
-
 .nombre input, textarea{
 
     border: none;
@@ -146,13 +140,13 @@ font-family: 'Antonio', sans-serif; */
     background-color: whitesmoke;
 
 }
-
 .apellido{
     grid-area: apellido;
     width: 100%;
+    background-color: black;
+    color: white;
     
 }
-
 .apellido input, textarea{
     border: none;
     resize: none;
@@ -162,13 +156,13 @@ font-family: 'Antonio', sans-serif; */
     border-bottom: 1.5px solid #663c4c;
     background-color: whitesmoke;
 }
-
 .email{
     grid-area: email;
     width: 100%;
+    background-color: black;
+    color: white;
    
 }
-
 .email input, textarea{
     border: none;
     resize: none;
@@ -178,13 +172,12 @@ font-family: 'Antonio', sans-serif; */
     border-bottom: 1.5px solid #663c4c;
     background-color: whitesmoke;
 }
-
 .numero{
     grid-area: numero;
     width: 100%;
-    
+    background-color: black;
+    color: white;
 }
-
 .numero input, textarea{
     border: none;
     resize: none;
@@ -194,14 +187,13 @@ font-family: 'Antonio', sans-serif; */
     border-bottom: 1.5px solid #663c4c;
     background-color: whitesmoke;
 }
-
 .mensaje{
     grid-area: mensaje;
     width: 100%;
+    background-color: black;
+    color: white;
     
-   
 }
-
 .mensaje input, textarea{
     border: none;
     resize: none;
@@ -211,14 +203,11 @@ font-family: 'Antonio', sans-serif; */
     border-bottom: 1.5px solid #663c4c;
     background-color: whitesmoke;
 }
-
-
 .boton{
     grid-area: boton;
     align-content: center;
 
 }
-
 .boton {
     border: none;
     outline: none;
@@ -228,22 +217,13 @@ font-family: 'Antonio', sans-serif; */
     height: 38px;
     color: whitesmoke;
 }
-
 input:focus,
 textarea:focus {
     border-bottom-color: #d39892;
 }
 
-  
 /* AUTOMOVILES */
 
-.tituloautos{
-  color: rgb(102, 20, 20);
-  background-color: black;
-  text-align: center;
-  font-size: 30px;
-  padding: 12px 0;
-}
 
 .pepito{
     display: grid;
@@ -279,7 +259,7 @@ textarea:focus {
   text-align: center;
  font-size: 1.8rem; 
  font-weight: 500;
- text-transform: uppercase;
+ /* text-transform: uppercase; */
 }
 
 .price{
@@ -309,11 +289,18 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   padding: 0 20%;
-  opacity: .7;
+  opacity: .8;
+  
 }
-.titulogrande .nosotrosfondo{
-  color: black;
+.titulogrande{
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.767);
+  margin-bottom: 0;
+
 }
+
+
    /* Pie de pagina */
 .pie-pagina{
     width: 100%;
@@ -326,7 +313,7 @@ textarea:focus {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 60px;
     padding:45px 0px;
    }
 
@@ -359,7 +346,7 @@ textarea:focus {
       height: 45px;
       line-height: 45px;
       color: white;
-      margin-right: 10px;
+      margin-right: 30px;
       background-color:rgba(0, 0, 0, 0.219);
       text-align: center;
       transition: all 300ms ease;
