@@ -1,0 +1,424 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif; }
+
+.header {
+  color: white;
+  background-color: black;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .header .logo {
+    padding: 0 25px; }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  gap: 20px;
+  padding: 20px; }
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    list-style: none;
+    width: 100%;
+    font-size: 22px;
+    transition: .4s ease; }
+    .navbar li a:hover {
+      color: #831e1e; }
+
+ul {
+  list-style: none; }
+
+p {
+  color: white;
+  font-size: 20px; }
+
+.section {
+  color: white; }
+
+.tituloautos {
+  color: #661414;
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 12px 0; }
+
+.tituloautosindex {
+  color: #661414;
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 12px 12px;
+  height: 150px; }
+
+.nosotrosf {
+  background-image: url(../assets/img/vehiculosfondo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20%;
+  opacity: .8; }
+
+.titulogrande {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.767);
+  margin-bottom: 0; }
+
+.contactof {
+  height: 100vh;
+  background-image: url(../assets/img/contacto.jfif);
+  background-position: center;
+  background-size: cover;
+  align-items: center; }
+
+button {
+  color: #663c4c; }
+  button:hover {
+    color: cadetblue; }
+
+.formulario {
+  display: grid;
+  grid-template-areas: "nombre apellido" "email numero " "mensaje mensaje" "boton boton";
+  grid-template-columns: 450px 450px;
+  grid-template-rows: auto auto auto auto;
+  column-gap: 50px;
+  opacity: .8;
+  place-items: center;
+  padding: 200px 100px;
+  justify-content: center;
+  align-items: center; }
+  .formulario div input:focus {
+    border-bottom-color: red; }
+  .formulario div textarea:focus {
+    border-bottom-color: red; }
+
+.nombre {
+  grid-area: nombre;
+  width: 100%;
+  background-color: black;
+  color: white; }
+  .nombre input {
+    border: none;
+    resize: none;
+    outline: none;
+    width: 100%;
+    transform: all .3s;
+    border-bottom: 1.5px solid #663c4c;
+    background-color: whitesmoke; }
+
+textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  width: 100%;
+  transform: all .3s;
+  border-bottom: 1.5px solid #663c4c;
+  background-color: whitesmoke;
+  border: none;
+  resize: none;
+  outline: none;
+  width: 100%;
+  transform: all .3s;
+  border-bottom: 1.5px solid #663c4c;
+  background-color: whitesmoke;
+  border: none;
+  resize: none;
+  outline: none;
+  width: 100%;
+  transform: all .3s;
+  border-bottom: 1.5px solid #663c4c;
+  background-color: whitesmoke;
+  border: none;
+  resize: none;
+  outline: none;
+  width: 100%;
+  transform: all .3s;
+  border-bottom: 1.5px solid #663c4c;
+  background-color: whitesmoke;
+  border: none;
+  resize: none;
+  outline: none;
+  width: 100%;
+  transform: all .3s;
+  border-bottom: 1.5px solid #663c4c;
+  background-color: whitesmoke; }
+  textarea:focus {
+    border-bottom-color: #d39892; }
+
+.apellido {
+  grid-area: apellido;
+  width: 100%;
+  background-color: black;
+  color: white; }
+  .apellido input {
+    border: none;
+    resize: none;
+    outline: none;
+    width: 100%;
+    transform: all .3s;
+    border-bottom: 1.5px solid #663c4c;
+    background-color: whitesmoke; }
+
+.email {
+  grid-area: email;
+  width: 100%;
+  background-color: black;
+  color: white; }
+  .email input {
+    border: none;
+    resize: none;
+    outline: none;
+    width: 100%;
+    transform: all .3s;
+    border-bottom: 1.5px solid #663c4c;
+    background-color: whitesmoke; }
+
+.numero {
+  grid-area: numero;
+  width: 100%;
+  background-color: black;
+  color: white; }
+  .numero input {
+    border: none;
+    resize: none;
+    outline: none;
+    width: 100%;
+    transform: all .3s;
+    border-bottom: 1.5px solid #663c4c;
+    background-color: whitesmoke; }
+
+.mensaje {
+  grid-area: mensaje;
+  width: 100%;
+  background-color: black;
+  color: white; }
+  .mensaje input {
+    border: none;
+    resize: none;
+    outline: none;
+    width: 100%;
+    transform: all .3s;
+    border-bottom: 1.5px solid #663c4c;
+    background-color: whitesmoke; }
+
+.boton {
+  grid-area: boton;
+  align-content: center;
+  border: none;
+  outline: none;
+  background: #663c4c;
+  border-radius: 5px;
+  width: 200px;
+  height: 38px;
+  color: whitesmoke; }
+
+input:focus {
+  border-bottom-color: #d39892; }
+
+.pie-pagina {
+  width: 100%;
+  background-color: black; }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    padding: 45px 0px; }
+    .pie-pagina .grupo-1 .box figure {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .pie-pagina .grupo-1 .box figure img {
+        width: 150px; }
+    .pie-pagina .grupo-1 .box h2 {
+      color: #fff;
+      margin-bottom: 25px;
+      font-size: 20px; }
+    .pie-pagina .grupo-1 .box p {
+      color: #efefef;
+      margin-bottom: 10px; }
+    .pie-pagina .grupo-1 .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: white;
+      margin-right: 30px;
+      background-color: rgba(0, 0, 0, 0.219);
+      text-align: center;
+      transition: all 300ms ease; }
+      .pie-pagina .grupo-1 .red-social a:hover {
+        color: red; }
+  .pie-pagina .grupo-2 {
+    background-color: rgba(37, 33, 33, 0.582);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff; }
+    .pie-pagina .grupo-2 small {
+      font-size: 15px; }
+
+.header {
+  color: white;
+  background-color: black;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .header .logo {
+    padding: 0 25px; }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  gap: 20px;
+  padding: 20px; }
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    list-style: none;
+    width: 100%;
+    font-size: 22px;
+    transition: .4s ease; }
+    .navbar li a:hover {
+      color: #831e1e; }
+
+ul {
+  list-style: none; }
+
+.pepito {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 2.5rem;
+  padding: 30px 27px; }
+
+.product-box {
+  background-color: #e0f3f3;
+  border-radius: 10px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  row-gap: 10px;
+  padding: 5px 0;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  background-color: #e0f3f3;
+  border-radius: 10px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  row-gap: 10px;
+  padding: 5px 0; }
+  .product-box:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  border-radius: 10px; }
+
+.product-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500; }
+
+.price {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  place-self: initial; }
+
+.sectionautos {
+  background-image: url(../assets/img/micoper.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%; }
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+    align-items: center; } }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 425px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+    justify-content: center; }
+  header {
+    flex-direction: column;
+    align-items: center; }
+  .navbar {
+    flex-direction: column; }
+  .nosotrosf {
+    flex-direction: row;
+    align-items: center; }
+  .tituloautos {
+    color: #661414;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 0; }
+  .pepito {
+    grid-template-columns: repeat(2, auto);
+    padding: 5px;
+    column-gap: 8px; }
+  .product-box {
+    background-color: #e0f3f3;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    row-gap: 10px;
+    padding: 5px 0; }
+  .product-img {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    border-radius: 10px; }
+  .product-title {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500; }
+  .price {
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9rem;
+    place-self: initial; } }
+
+@media (min-width: 1024px) {
+  .pepito {
+    grid-template-columns: repeat(3, auto);
+    column-gap: 10px;
+    flex-direction: row; } }

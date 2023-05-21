@@ -1,0 +1,17 @@
+.nosotrosf {
+   background-image: url(../assets/img/vehiculosfondo.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20%;
+	opacity: .8;
+}
+.titulogrande {
+	color:$color_1;
+	text-align: center;
+	background-color: $background-color_4;
+	margin-bottom: 0;
+}

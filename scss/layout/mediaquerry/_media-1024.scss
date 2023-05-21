@@ -1,0 +1,7 @@
+@media (min-width:1024px) {
+	.pepito {
+		grid-template-columns: repeat(3,auto);
+		column-gap: 10px;
+		flex-direction: row;
+	}
+}

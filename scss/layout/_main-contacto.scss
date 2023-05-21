@@ -1,0 +1,168 @@
+.contactof {
+	height: 100vh;
+	background-image: url(../assets/img/contacto.jfif);
+	background-position: center;
+	background-size: cover;
+	align-items: center;
+}
+button {
+	color: $color_4;
+	&:hover {
+		color: $color_5;
+	}
+}
+.formulario {
+	div {
+		input {
+			&:focus {
+				border-bottom-color: $border-bottom-color_1;
+			}
+		}
+		textarea {
+			&:focus {
+				border-bottom-color: $border-bottom-color_1;
+			}
+		}
+	}
+	display: grid;
+	grid-template-areas: "nombre apellido" "email numero ""mensaje mensaje" "boton boton";
+	grid-template-columns: 450px 450px;
+	grid-template-rows: auto auto auto auto;
+	column-gap: 50px;
+	opacity: .8;
+	place-items: center;
+	padding: 200px 100px;
+	justify-content: center;
+	align-items: center;
+}
+.nombre {
+	grid-area: nombre;
+	width: 100%;
+	background-color: $background-color_1;
+	color: $color_1;
+	input {
+		border: none;
+		resize: none;
+		outline: none;
+		width: 100%;
+		transform: all .3s;
+		border-bottom: 1.5px solid #663c4c;
+		background-color: $background-color_2;
+	}
+}
+textarea {
+	border: none;
+	resize: none;
+	outline: none;
+	width: 100%;
+	transform: all .3s;
+	border-bottom: 1.5px solid #663c4c;
+	background-color: $background-color_2;
+	border: none;
+	resize: none;
+	outline: none;
+	width: 100%;
+	transform: all .3s;
+	border-bottom: 1.5px solid #663c4c;
+	background-color: $background-color_2;
+	border: none;
+	resize: none;
+	outline: none;
+	width: 100%;
+	transform: all .3s;
+	border-bottom: 1.5px solid #663c4c;
+	background-color: $background-color_2;
+	border: none;
+	resize: none;
+	outline: none;
+	width: 100%;
+	transform: all .3s;
+	border-bottom: 1.5px solid #663c4c;
+	background-color: $background-color_2;
+	border: none;
+	resize: none;
+	outline: none;
+	width: 100%;
+	transform: all .3s;
+	border-bottom: 1.5px solid #663c4c;
+	background-color: $background-color_2;
+	&:focus {
+		border-bottom-color: $border-bottom-color_2;
+	}
+}
+.apellido {
+	grid-area: apellido;
+	width: 100%;
+	background-color: $background-color_1;
+	color: $color_1;
+	input {
+		border: none;
+		resize: none;
+		outline: none;
+		width: 100%;
+		transform: all .3s;
+		border-bottom: 1.5px solid #663c4c;
+		background-color: $background-color_2;
+	}
+}
+.email {
+	grid-area: email;
+	width: 100%;
+	background-color: $background-color_1;
+	color: $color_1;
+	input {
+		border: none;
+		resize: none;
+		outline: none;
+		width: 100%;
+		transform: all .3s;
+		border-bottom: 1.5px solid #663c4c;
+		background-color: $background-color_2;
+	}
+}
+.numero {
+	grid-area: numero;
+	width: 100%;
+	background-color: $background-color_1;
+	color: $color_1;
+	input {
+		border: none;
+		resize: none;
+		outline: none;
+		width: 100%;
+		transform: all .3s;
+		border-bottom: 1.5px solid #663c4c;
+		background-color: $background-color_2;
+	}
+}
+.mensaje {
+	grid-area: mensaje;
+	width: 100%;
+	background-color: $background-color_1;
+	color: $color_1;
+	input {
+		border: none;
+		resize: none;
+		outline: none;
+		width: 100%;
+		transform: all .3s;
+		border-bottom: 1.5px solid #663c4c;
+		background-color: $background-color_2;
+	}
+}
+.boton {
+	grid-area: boton;
+	align-content: center;
+	border: none;
+	outline: none;
+	background: #663c4c;
+	border-radius: 5px;
+	width: 200px;
+	height: 38px;
+	color: $color_6;
+}
+input {
+	&:focus {
+		border-bottom-color: $border-bottom-color_2;
+	}
+}
