@@ -1,11 +1,9 @@
 .nosotrosf {
+	@include flex;
    background-image: url(../assets/img/vehiculosfondo.jpg);
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	padding: 0 20%;
 	opacity: .8;
 }

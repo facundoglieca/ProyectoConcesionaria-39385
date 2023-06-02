@@ -5,6 +5,13 @@
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif; }
 
+.carousel-inner h5 strong {
+  font-size: 40px;
+  color: #f7f7f7; }
+
+.carousel-inner p {
+  font-size: 30px; }
+
 .header {
   color: white;
   background-color: black;
@@ -53,20 +60,20 @@ p {
 
 .tituloautosindex {
   color: #661414;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.219);
   text-align: center;
   font-size: 30px;
   padding: 12px 12px;
   height: 150px; }
 
 .nosotrosf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url(../assets/img/vehiculosfondo.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 0 20%;
   opacity: .8; }
 
@@ -76,156 +83,113 @@ p {
   background-color: rgba(0, 0, 0, 0.767);
   margin-bottom: 0; }
 
-.contactof {
-  height: 100vh;
-  background-image: url(../assets/img/contacto.jfif);
+.content {
+  background-color: #181818;
+  max-width: 2540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em; }
+
+.logo {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  margin: 20px; }
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+
+.contact-wrapper > * {
+  padding: 1em; }
+
+.contact-form {
+  background: #222222; }
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.contact-form form .block {
+  grid-column: 1/3; }
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em; }
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #ffff;
+  border-bottom: 1px solid #d63031; }
+
+.contact-form form button {
+  background: #b70e21;
+  border: 0;
+  color: black;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+.pepito {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 2.5rem;
+  padding: 30px 27px; }
+
+.product-box {
+  background-color: #e0f3f3;
+  border-radius: 10px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  row-gap: 10px;
+  padding: 5px 0;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  background-color: #e0f3f3;
+  border-radius: 10px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  row-gap: 10px;
+  padding: 5px 0; }
+  .product-box:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  border-radius: 10px; }
+
+.product-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500; }
+
+.price {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  place-self: initial; }
+
+.sectionautos {
+  background-image: url(../assets/img/micoper.jpg);
   background-position: center;
   background-size: cover;
-  align-items: center; }
-
-button {
-  color: #663c4c; }
-  button:hover {
-    color: cadetblue; }
-
-.formulario {
-  display: grid;
-  grid-template-areas: "nombre apellido" "email numero " "mensaje mensaje" "boton boton";
-  grid-template-columns: 450px 450px;
-  grid-template-rows: auto auto auto auto;
-  column-gap: 50px;
-  opacity: .8;
-  place-items: center;
-  padding: 200px 100px;
-  justify-content: center;
-  align-items: center; }
-  .formulario div input:focus {
-    border-bottom-color: red; }
-  .formulario div textarea:focus {
-    border-bottom-color: red; }
-
-.nombre {
-  grid-area: nombre;
-  width: 100%;
-  background-color: black;
-  color: white; }
-  .nombre input {
-    border: none;
-    resize: none;
-    outline: none;
-    width: 100%;
-    transform: all .3s;
-    border-bottom: 1.5px solid #663c4c;
-    background-color: whitesmoke; }
-
-textarea {
-  border: none;
-  resize: none;
-  outline: none;
-  width: 100%;
-  transform: all .3s;
-  border-bottom: 1.5px solid #663c4c;
-  background-color: whitesmoke;
-  border: none;
-  resize: none;
-  outline: none;
-  width: 100%;
-  transform: all .3s;
-  border-bottom: 1.5px solid #663c4c;
-  background-color: whitesmoke;
-  border: none;
-  resize: none;
-  outline: none;
-  width: 100%;
-  transform: all .3s;
-  border-bottom: 1.5px solid #663c4c;
-  background-color: whitesmoke;
-  border: none;
-  resize: none;
-  outline: none;
-  width: 100%;
-  transform: all .3s;
-  border-bottom: 1.5px solid #663c4c;
-  background-color: whitesmoke;
-  border: none;
-  resize: none;
-  outline: none;
-  width: 100%;
-  transform: all .3s;
-  border-bottom: 1.5px solid #663c4c;
-  background-color: whitesmoke; }
-  textarea:focus {
-    border-bottom-color: #d39892; }
-
-.apellido {
-  grid-area: apellido;
-  width: 100%;
-  background-color: black;
-  color: white; }
-  .apellido input {
-    border: none;
-    resize: none;
-    outline: none;
-    width: 100%;
-    transform: all .3s;
-    border-bottom: 1.5px solid #663c4c;
-    background-color: whitesmoke; }
-
-.email {
-  grid-area: email;
-  width: 100%;
-  background-color: black;
-  color: white; }
-  .email input {
-    border: none;
-    resize: none;
-    outline: none;
-    width: 100%;
-    transform: all .3s;
-    border-bottom: 1.5px solid #663c4c;
-    background-color: whitesmoke; }
-
-.numero {
-  grid-area: numero;
-  width: 100%;
-  background-color: black;
-  color: white; }
-  .numero input {
-    border: none;
-    resize: none;
-    outline: none;
-    width: 100%;
-    transform: all .3s;
-    border-bottom: 1.5px solid #663c4c;
-    background-color: whitesmoke; }
-
-.mensaje {
-  grid-area: mensaje;
-  width: 100%;
-  background-color: black;
-  color: white; }
-  .mensaje input {
-    border: none;
-    resize: none;
-    outline: none;
-    width: 100%;
-    transform: all .3s;
-    border-bottom: 1.5px solid #663c4c;
-    background-color: whitesmoke; }
-
-.boton {
-  grid-area: boton;
-  align-content: center;
-  border: none;
-  outline: none;
-  background: #663c4c;
-  border-radius: 5px;
-  width: 200px;
-  height: 38px;
-  color: whitesmoke; }
-
-input:focus {
-  border-bottom-color: #d39892; }
+  height: 100%; }
 
 .pie-pagina {
   width: 100%;
@@ -239,11 +203,11 @@ input:focus {
     grid-gap: 60px;
     padding: 45px 0px; }
     .pie-pagina .grupo-1 .box figure {
-      width: 100%;
-      height: 100%;
       display: flex;
+      align-items: center;
       justify-content: center;
-      align-items: center; }
+      width: 100%;
+      height: 100%; }
       .pie-pagina .grupo-1 .box figure img {
         width: 150px; }
     .pie-pagina .grupo-1 .box h2 {
@@ -356,6 +320,24 @@ ul {
   background-size: cover;
   height: 100%; }
 
+@media (max-width: 325px) {
+  .nosotrosf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/img/vehiculosfondo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    padding: 0 20%;
+    opacity: .8; }
+  .titulogrande {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.767);
+    margin-bottom: 0;
+    font-size: 15px; } }
+
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
     width: 90%;
@@ -368,6 +350,27 @@ ul {
   header {
     flex-direction: column;
     align-items: center; } }
+
+@media (min-width: 700px) {
+  .container {
+    padding: 0 4rem; } }
+
+@media (max-width: 768px) {
+  .nosotrosf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/img/vehiculosfondo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    padding: 0 20%;
+    opacity: .8; }
+  .titulogrande {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.767);
+    margin-bottom: 0; } }
 
 @media (max-width: 425px) {
   .pie-pagina .grupo-1 {
@@ -417,8 +420,31 @@ ul {
     font-size: 0.9rem;
     place-self: initial; } }
 
+@media (max-width: 425px) and (max-width: 425px) {
+  .nosotrosf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/img/vehiculosfondo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    padding: 0 20%;
+    opacity: .8; }
+  .titulogrande {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.767);
+    margin-bottom: 0;
+    font-size: 15px; } }
+
 @media (min-width: 1024px) {
   .pepito {
     grid-template-columns: repeat(3, auto);
     column-gap: 10px;
     flex-direction: row; } }
+
+@media (min-width: 1440) {
+  .content {
+    width: 100%;
+    margin: 0; } }

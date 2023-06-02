@@ -4,4 +4,12 @@
 		column-gap: 10px;
 		flex-direction: row;
 	}
+
+
+}
+@media(min-width:1440){
+	.content{
+		width: 100%;
+		margin: 0;
+	};
 }

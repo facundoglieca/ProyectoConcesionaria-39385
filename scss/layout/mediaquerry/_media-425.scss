@@ -70,5 +70,23 @@
       place-self:initial;
     }
     
-     
+    @media(max-width:425px){
+      .nosotrosf {
+        @include flex;
+         background-image: url(../assets/img/vehiculosfondo.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 1000px;
+        padding: 0 20%;
+        opacity: .8;
+          
+      }
+      .titulogrande {
+        color:$color_1;
+        text-align: center;
+        background-color: $background-color_4;
+        margin-bottom: 0;
+          font-size: 15px;
+      }}
   }
+ 
