@@ -18,16 +18,35 @@
 					width: 150px;
 				}
 			}
+		}	
+			
+		
+			}
 			h2 {
 				color: $color_7;
 				margin-bottom: 25px;
-				font-size: 20px;
+				font-size: 22px;
 			}
-			p {
-				color: $color_8;
-				margin-bottom: 10px;
-			}
+			
+			.FG,p{
+				display: inline-block;
+				text-decoration: none;
+				color: $color_1;
+				padding: 5px;
+				list-style: none;
+				width: 100%;
+				font-size: 22px;
+				transition: .4s ease;
+					&:hover {
+						color: $color_2;
+					}
+					
 		}
+
+			.MG{
+				@extend .FG
+			}
+
 		.red-social {
 			a {
 				display: inline-block;
@@ -52,7 +71,6 @@
 		text-align: center;
 		color: $color_7;
 		small {
-			font-size: 15px;
+			font-size: 22px;
 		}
 	}
-}
