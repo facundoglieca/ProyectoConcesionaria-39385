@@ -346,7 +346,7 @@ ul {
     font-size: 15px; }
   .pepito {
     grid-template-columns: repeat(1, auto);
-    padding: 5px;
+    padding: 30px 35px;
     column-gap: 8px; }
   .product-box {
     background-color: #e0f3f3;
@@ -372,7 +372,7 @@ ul {
   .price {
     text-align: center;
     font-weight: 400;
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     place-self: initial; } }
 
 @media screen and (max-width: 800px) {
@@ -392,7 +392,7 @@ ul {
   .container {
     padding: 0 4rem; } }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .nosotrosf {
     display: flex;
     align-items: center;
@@ -459,11 +459,13 @@ ul {
     background-color: black;
     text-align: center;
     font-size: 15px;
-    padding: 12px 0; }
+    padding: 12px 0; } }
+
+@media only screen and (min-width: 340px) and (max-width: 460px) {
   .pepito {
     grid-template-columns: repeat(1, auto);
-    padding: 5px;
-    column-gap: 8px; }
+    column-gap: 8px;
+    padding: 40px 55px; }
   .product-box {
     background-color: #e0f3f3;
     border-radius: 10px;
@@ -471,8 +473,6 @@ ul {
     display: grid;
     place-items: center;
     row-gap: 10px;
-    margin: 15px;
-    padding: 5px 5px;
     width: 280px;
     height: 420px;
     align-items: center; }
@@ -491,7 +491,7 @@ ul {
     font-size: 1.5rem;
     place-self: initial; } }
 
-@media (max-width: 425px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .nosotrosf {
     display: flex;
     align-items: center;
@@ -524,10 +524,10 @@ ul {
     margin: 15px;
     padding: 5px 5px;
     width: 280px;
-    height: 370px;
+    height: 450px;
     align-items: center; } }
 
-@media (min-width: 1440px) {
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
   .content {
     width: 100%;
     margin: 0; }
@@ -544,6 +544,6 @@ ul {
     row-gap: 8px;
     margin: 15px;
     padding: 5px 5px;
-    width: 410px;
-    height: 490px;
+    width: 400px;
+    height: 500px;
     align-items: center; } }

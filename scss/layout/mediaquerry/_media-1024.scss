@@ -14,12 +14,12 @@
 		margin:15px;
 		padding: 5px 5px;
 		width: 280px;
-		height: 370px;
+		height: 450px;
 		align-items: center;
 	  }
 
 }
-@media(min-width:1440px){
+@media only screen and (min-width:1025px) and (max-width:1440px) {
 	.content{
 		width: 100%;
 		margin: 0;
@@ -38,8 +38,8 @@
 		row-gap: 8px;
 		margin:15px;
 		padding: 5px 5px;
-		width: 410px;
-		height: 490px;
+		width: 400px;
+		height: 500px;
 		align-items: center;
 	  }
 }
