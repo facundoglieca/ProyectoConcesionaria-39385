@@ -1,15 +1,45 @@
-@media (min-width:1024px) {
+@media only screen and (min-width:1024px) and (max-width:1435px) {
 	.pepito {
 		grid-template-columns: repeat(3,auto);
 		column-gap: 10px;
 		flex-direction: row;
 	}
-
+	.product-box{
+		background-color: rgb(224, 243, 243);
+		border-radius: 10px;
+		position: relative;
+		display: grid;
+		place-items: center;
+		row-gap: 8px;
+		margin:15px;
+		padding: 5px 5px;
+		width: 280px;
+		height: 370px;
+		align-items: center;
+	  }
 
 }
-@media(min-width:1440){
+@media(min-width:1440px){
 	.content{
 		width: 100%;
 		margin: 0;
 	};
+	.pepito {
+		grid-template-columns: repeat(3,auto);
+		column-gap: 10px;
+		flex-direction: row;
+	}
+	.product-box{
+		background-color: rgb(224, 243, 243);
+		border-radius: 10px;
+		position: relative;
+		display: grid;
+		place-items: center;
+		row-gap: 8px;
+		margin:15px;
+		padding: 5px 5px;
+		width: 410px;
+		height: 490px;
+		align-items: center;
+	  }
 }
